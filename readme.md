@@ -17,3 +17,9 @@ git branch
 git merge: B------->A
 -checkout to A(go to branch A)
 -git merge B
+
+git reset --soft <commit>
+git reset --mixed <commit>
+git reset --hard <commit> : delete the commit and code
+
+git revert <commit>
