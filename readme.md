@@ -23,3 +23,5 @@ git reset --mixed <commit>
 git reset --hard <commit> : delete the commit and code
 
 git revert <commit>
+
+git config --global creadential.helper "cache--timeout=36000"
