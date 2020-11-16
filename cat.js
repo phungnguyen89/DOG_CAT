@@ -1,4 +1,5 @@
 function cat() {
+  this.stomach = "dsa";
   return "cat";
 }
 
